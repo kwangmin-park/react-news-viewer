@@ -16,12 +16,6 @@ const NewsListBlock = styled.div`
   }
 `;
 
-const sampleArticle = {
-    title: '제목',
-    description: '내용',
-    url: 'https://google.com',
-    urlToImage: 'https://via.placeholder.com/160'
-};
 
 const NewsList = ({category}) => {
     const [articles, setArticles] = useState(null);
